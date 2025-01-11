@@ -1,0 +1,75 @@
+/* cuerpo.css */
+
+@import url(".././fuentes/Matrix-Book/css/Matrix-Book.css");
+@import url(".././fuentes/SFProDisplay/sfpro.css");
+
+/* estilos del menú del panel principal */
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --top-menu-height: 20px; /* Altura del menú superior */
+}
+
+.sistema span {
+    color: #0000ff !important;
+}
+
+#principalmenuarriba {
+    z-index: 1000;
+    border-bottom: 1px solid #e6e6eb;
+    background-color: #f2f2f7;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: var(--top-menu-height); /* Usa la variable para definir altura */
+}
+
+#principalmenulateral {
+    z-index: 500;
+    border-right: 1px solid #d1d1d6;
+    background-color: #fbfbfd;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding-left: 10px;
+}
+
+#principal {
+    position: fixed;
+    top: calc(
+        var(--top-menu-height) + 2%
+    ); /* Espacio debajo del menú superior */
+    bottom: 0;
+    right: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 999; /* Debajo de los menús */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    border: none; /* Elimina bordes innecesarios */
+    display: block; /* Asegura que no haya espacio extra alrededor del iframe */
+}
+
+#tituloprincipal {
+    font-size: 16px;
+}
+
+#tituloprincipal span {
+    color: #0000ff;
+}
+
+#bocadito {
+    position: fixed;
+    margin-top: 3%;
+    padding: 0;
+}
+
+.opciones {
+    margin-top: 30%;
+}

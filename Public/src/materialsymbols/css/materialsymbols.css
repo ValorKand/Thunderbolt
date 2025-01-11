@@ -1,0 +1,47 @@
+/* Creado por David Vales (Valor Kand) Vales Corp en 4-01-2025 */
+/* materialsymbols.css */
+
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  src: url('../fuentes/MaterialSymbolsOutlined.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Material Symbols Rounded';
+  src: url('../fuentes/MaterialSymbolsRounded.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Material Symbols Sharp';
+  src: url('../fuentes/MaterialSymbolsSharp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-size: 24px;
+  font-weight: normal;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
+  font-size: 24px;
+  font-weight: normal;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-sharp {
+  font-family: 'Material Symbols Sharp';
+  font-size: 24px;
+  font-weight: normal;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}

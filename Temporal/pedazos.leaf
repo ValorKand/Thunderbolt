@@ -1,0 +1,47 @@
+<form action="/nuevaOrden" method="POST" class="ui large form">
+                <div class="ui stacked segment">
+                    <div class="field">
+                        <div class="ui left input">
+                            <input type="date" name="fecha" placeholder="Fecha del servicio">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left input">
+                            <input type="text" name="cliente" placeholder="Nombre del cliente">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left input">
+                            <input type="mail" name="correo" placeholder="Correo electrónico">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left input">
+                            <input class="disabled" type="text" name="usuario" placeholder="Quien Atiende">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left input">
+                            <input class="disabled" type="text" name="puesto" placeholder="Puesto">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left input">
+                            <input type="text" name="alcance" placeholder="Alcance de servicios">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="ui left input">
+                            <input type="password" name="secreto" placeholder="Contraseña">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left input">
+                            <input type="password" name="confirma_secreto" placeholder="Repite tu contraseña">
+                        </div>
+                    </div>
+                    <button class="ui fluid large blue submit button" type="submit">Registrar</button>
+                </div>
+                <div class="ui error message"></div>
+            </form>

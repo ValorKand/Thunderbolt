@@ -1,0 +1,35 @@
+/* menu-aplicaciones.css
+ *
+ * Para menú de aplicaciones de toda la interfaz
+ */
+
+.ui.dropdown .menu {
+    margin-top: 50%;
+    padding: 0 !important; /* Elimina espacios innecesarios */
+    width: auto !important; /* Ajusta el ancho al contenido */
+}
+
+.ui.dropdown .menu .ui.grid {
+    gap: 0.5em; /* Espaciado entre columnas y filas */
+}
+
+.ui.dropdown .menu .column {
+    text-align: center; /* Centra los textos dentro de cada columna */
+    padding: 0.5em; /* Espaciado interno para evitar superposición */
+    white-space: nowrap; /* Evita que el texto se corte o salte de línea */
+}
+
+.ui.dropdown .menu .item {
+    display: block; /* Asegura que cada item ocupe su espacio */
+    margin: 30 auto; /* Centra los items en su columna */
+}
+
+.nombre-aplicacion {
+    display: inline-block; /* Hace que el contenedor se ajuste al contenido */
+    max-width: 200px; /* Ancho máximo, ajusta según tus necesidades */
+    padding: 10px 15px; /* Espaciado interno para el "bocadito" */
+    text-align: center; /* Centra el texto dentro del bocadito */
+    word-wrap: break-word; /* Rompe las palabras largas si es necesario */
+    white-space: normal; /* Fuente limpia, ajusta según preferencias */
+    font-size: 16px;
+}

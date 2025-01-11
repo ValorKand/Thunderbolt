@@ -1,0 +1,80 @@
+<!-- home.leaf -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+        <link type="text/css" rel="stylesheet" href="./src/semantic/semantic.css"></link>
+        <link type="text/css" rel="stylesheet" href="./src/materialsymbols/css/materialsymbols.css"></link>
+        <link type="text/css" rel="stylesheet" href="./src/css/componentes.css"></link>
+        <link type="text/css" rel="stylesheet" href="./src/css/cuerpo.css"></link>
+        <link type="text/css" rel="stylesheet" href="./src/css/menu-aplicaciones.css"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no" />
+        <title>#(title)</title>
+    </head>
+    <body id="root">
+        <!-- Menú de la página -->
+        <div id="principalmenuarriba" class="ui borderless fixed top menu">
+            <a id="tituloprincipal" class="item"><span class="material-symbols-outlined">home</span> Vales Corp &nbsp;<span>Sistema Empresarial</span></a>
+            <div class="ui right menu">
+                <div class="item">
+                    <div class="ui dropdown">
+                        <span class="material-symbols-outlined">apps</span>
+                        <div id="menu-aplicaciones" class="menu">
+                            <div class="header">Aplicaciones</div>
+                            <div class="ui three column grid">
+                                <div class="row">
+                                    <div class="column">
+                                        <a href="/ordenesDeServicio" class="item">
+                                            <div class="aplicacion">
+                                                <div class="icono">
+                                                    <img src="./src/iu/ordenes.webp" class="ui mini middle aligned image"></img>
+                                                </div>
+                                                <div class="nombre-aplicacion">
+                                                    Ordenes de Servicio
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="#" class="item">
+                                            <div class="aplicacion">
+                                                <div class="icono">
+                                                    <img src="./src/iu/cotizaciones.png" class="ui mini middle aligned image"></img>
+                                                </div>
+                                                <div class="nombre-aplicacion">
+                                                    Cotizaciones
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="column">
+                                        <a href="#" class="item">
+                                            <div class="aplicacion">
+                                                <div class="icono">
+                                                    <img src="./src/iu/clientes.png" class="ui mini middle aligned image"></img>
+                                                </div>
+                                                <div class="nombre-aplicacion">
+                                                    Clientes
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="material-symbols-outlined">account_circle</span>
+                </div>
+            </div>
+        </div>
+        <iframe id="principal"></iframe>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+        <script src="./src/js/funciones.js"></script>
+        <script src="./src/js/principal.js"></script>
+    </body>
+</html>
